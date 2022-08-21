@@ -1,0 +1,92 @@
+html {
+  background-color: #460084;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  @media (max-width: 600px) {
+    font-size: 10px;
+  }
+  @media (max-width: 600px) {
+    font-size: 12px;
+  }
+  @media (max-width: 800px) {
+    font-size: 14px;
+  }
+}
+
+div {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+  font-weight: bold;
+  text-shadow: 3px 3px #111111;
+  margin: 2.5%;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 1rem;
+}
+
+li {
+  width: 90%;
+  height: 80px;
+  margin: 10px auto;
+  padding: 10px 0;
+  border-radius: 10px;
+  text-shadow: 1px 1px #222222;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 2rem;
+}
+
+img {
+  width: 70px;
+  height: 70px;
+  display: block;
+  float: left;
+  margin: 0 20px;
+  border-radius: 50%;
+   @media (max-width: 600px) {
+    width: 60px;
+    height: 60px;
+    margin: 0 5px;
+  }
+}
+
+.online {
+  background-color: #59c165;
+  span {
+    color: #045400;
+    font-weight: bold;
+    text-shadow: 0 0 #222222;
+  }
+  .status {
+    color: white;
+    @media(max-width: 400px) {
+      display: none;
+    }
+  }
+}
+
+.offline {
+  background-color: #ffc96d;
+  span {
+    color: red;
+    font-weight: bold;
+    text-shadow: 0 0 #222222;
+  }
+}
+
+.error {
+  background-color: red;
+}
